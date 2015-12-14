@@ -1,0 +1,15 @@
+package Enum;
+
+
+public enum Builder {
+	
+    FENDER,MARDER,GINH,GOLLL;
+	public String toString(){
+		switch(this){
+		case FENDER : return "fender";
+		case MARDER :return "marder";
+		case GINH: return "GOLLL";
+		default: return null;
+		}
+	}
+}

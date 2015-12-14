@@ -1,0 +1,26 @@
+package Simulator;
+
+import DogDoor.DogDoor;
+import Remote.BarkRecognizer;
+//import Remote.Remote;
+
+public class DogDoorSimulator {
+  @SuppressWarnings("static-access")
+public static void main(String []args ){
+	  String bark="wangwang";
+	  DogDoor door= new DogDoor();
+	 // Remote remote=new Remote(door);
+	  BarkRecognizer barkRecognizer=new BarkRecognizer(door);
+	  System.out.println("wangwang");
+	  barkRecognizer.recognoise(bark);
+	  System.out.println("the dog has been inside");
+	  try {
+		   Thread.currentThread().sleep(10000);
+	} catch (Exception e) {
+		// TODO: handle exception
+		System.out.println("The dog has not go insise");
+	}
+	  System.out.println("dog brak to go inside");
+	  barkRecognizer.recognoise(bark);
+  }
+}

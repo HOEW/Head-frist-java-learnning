@@ -1,0 +1,19 @@
+package DogDoor;
+
+public class DogDoor {
+	private boolean Open;
+	public DogDoor(){
+		Open=false;
+	}
+     public void CloseDoor(){
+    	 System.out.println("狗门关上");
+    	 Open=false;
+     }
+     public void OpenDoor(){
+    	 System.out.println("狗门打开");
+    	 Open=true;
+     }
+     public  boolean isOpen() {
+		return Open;
+	}
+}

@@ -1,0 +1,17 @@
+package Remote;
+
+import DogDoor.DogDoor;
+
+public class BarkRecognizer {
+ private  DogDoor door;
+ public BarkRecognizer(DogDoor door){
+	 this.door=door;
+ }
+ public void recognoise(String bark){
+	 if(bark.equals("wangwang"))
+	 {
+		 System.out.println("this dog is yours,the door will open soon");
+		 door.OpenDoor();
+	 }
+ }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
+<fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
+<fullyQualifiedTypeName name="javax.management.modelmbean.ModelMBean"/>
+<fullyQualifiedTypeName name="Guitar.Buider"/>
+<fullyQualifiedTypeName name="Guitar.Model"/>
+<fullyQualifiedTypeName name="Guitar.Type"/>
+<fullyQualifiedTypeName name="Guitar.Wood"/>
+<fullyQualifiedTypeName name="java.lang.Number"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.ARG_IN"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Guitar.Invertory"/>
+<fullyQualifiedTypeName name="Enum.Model"/>
+<fullyQualifiedTypeName name="Enum.Type"/>
+<fullyQualifiedTypeName name="Enum.Wood"/>
+<fullyQualifiedTypeName name="java.nio.file.attribute.AclEntry.Builder"/>
+<fullyQualifiedTypeName name="Enum.Builder"/>
+<fullyQualifiedTypeName name="java.lang.Enum"/>
+<fullyQualifiedTypeName name="Enum.Bulder"/>
+<fullyQualifiedTypeName name="Guitar.GuitarSpec"/>
+<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Guitar.Guitar"/>
+<fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+<fullyQualifiedTypeName name="org.omg.CosNaming.NamingContextExtPackage.StringNameHelper"/>
+<fullyQualifiedTypeName name="Simulator.DogDoorSimulator"/>
+<fullyQualifiedTypeName name="java.rmi.Remote"/>
+<fullyQualifiedTypeName name="DogDoor.DogDoor"/>
+<fullyQualifiedTypeName name="Remote.Remote"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="java.util.TimerTask"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

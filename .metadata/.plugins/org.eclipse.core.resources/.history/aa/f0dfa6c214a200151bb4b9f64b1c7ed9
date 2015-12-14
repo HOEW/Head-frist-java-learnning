@@ -1,0 +1,33 @@
+package Remote;
+
+import java.util.Timer;
+import java.util.TimerTask;
+
+import DogDoor.DogDoor;
+
+public class Remote {
+	
+   private DogDoor dogDoor;
+   public Remote(DogDoor dogDoor) {
+	this.dogDoor=dogDoor;
+}
+   public void pressButton(){
+	   System.out.println("pression the button");
+	   if(dogDoor.isOpen()){
+		   dogDoor.CloseDoor();
+	   }else {
+		dogDoor.OpenDoor();
+		Timer timer=new Timer();
+		TimerTask timerTask01=new TimerTask() {
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				System.out.println("The door will close soon");
+				dogDoor.CloseDoor();
+				timer.cancel();
+			}
+		};
+		timer.schedule(timerTask01, 5000);
+	}
+   }
+}
